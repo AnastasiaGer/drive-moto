@@ -147,3 +147,36 @@ body{
   left: 0;
   right: auto;
 }
+
+.banner-section__inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-section__slider{
+  max-width: 870px; 
+}
+
+.banner-section__slider-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.banner-section__slider-btnprev{
+  left: 20px;
+}
+
+.banner-section__slider-btnnext{
+  right: 20px;
+}
+
+.slick-dots{
+  position: absolute;
+}
