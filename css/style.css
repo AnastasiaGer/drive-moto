@@ -906,3 +906,51 @@ button.catalog__filter-btnline{
   font-weight: bold;
   padding-bottom: 7px;
 }
+
+.aside-filter__item-drop{
+  margin: 40px 0;
+}
+
+.aside-filter__item-title{
+  font-family: 'SFProDisplay-Semibold', sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2F3035;
+  padding-left: 26px;
+}
+
+.filter__item-drop{
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.filter__item-drop::before{
+  content: "";
+  background-image: url('../images/arrow-down.svg');
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 12px;
+  height: 8px;
+  transform: rotate(0deg);
+}
+
+.filter__item-drop--active::before{
+  transform: rotate(180deg);
+}
+
+.aside-filter__content{
+  display: flex;
+}
+
+.aside-filter__content-box{
+  width: 50%;
+}
+
+.aside-filter__content-label{
+  font-size: 14px;
+  line-height: 17px;
+  color: #2F3035;
+  cursor: pointer;
+}
