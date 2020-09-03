@@ -441,10 +441,16 @@ body{
 .product-item__wrapper{
   position: relative;
   width: 271px;
+  transition: all .3s;
+}
+
+.product-item__wrapper.product-item__wrapper--list{
+  width: 100%;
 }
 
 
 .product-item{
+  width: 100%;
   min-height: 400px;
   border: 1px solid #CDCDCD;
   border-radius: 3px;
@@ -455,6 +461,10 @@ body{
 
 .product-item__title{
   font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #2F3035;
   padding: 14px 0 25px;
 }
 
