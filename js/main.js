@@ -43,4 +43,14 @@ $(function(){
     hide_from_to: true,
   });
 
+  $('.catalog__filter-btngrid').on('click', function(){
+    $(this).addClass('catalog__filter-button--active');
+    $('.catalog__filter-btnline').removeClass('catalog__filter-button--active');
+  });
+
+  $('.catalog__filter-btnline').on('click', function(){
+    $(this).addClass('catalog__filter-button--active');
+    $('.catalog__filter-btngrid').removeClass('catalog__filter-button--active');
+  });
+
 });

@@ -808,6 +808,12 @@ body{
 
 .catalog__filter-items button + button{
   margin-left: 8px;
+  cursor: pointer;
+}
+
+.catalog__filter-btn {
+  display: flex;
+  align-items: center;
 }
 
 .catalog__filter-btn button{
@@ -822,12 +828,35 @@ body{
   margin-left: 10px;
 }
 
+
 button.catalog__filter-btngrid{
-  padding-top: 1px;
+  width: 26px;
+  height: 21px;
 }
 
-button.catalog__filter-btnline{
+.select-item{
+  border: 1px solid #D7D9DF;
+  font-size: 14px;
+  line-height: 17px;
 
+  color: #2F3035;
+  padding: 8px 20px 8px 10px;
+  margin-right: 34px;
+}
+
+
+button.catalog__filter-btnline{
+  width: 25px;
+  height: 19px;
+}
+
+.catalog__filter-button{
+  opacity: .3;
+  outline: none;
+}
+
+.catalog__filter-button--active{
+  opacity: 1;
 }
 
 .catalog__inner{
@@ -1108,8 +1137,8 @@ button.catalog__filter-btnline{
 
 .jq-selectbox__trigger-arrow {
   position: absolute;
-  top: 14px;
-  right: 12px;
+  top: 0;
+  right: 0;
   width: 0;
   height: 0;
   border: none;
@@ -1120,7 +1149,7 @@ button.catalog__filter-btnline{
 
   background-image: url('../images/arrow-down.svg');
   position: absolute;
-  left: 45px;
+  right: 0;
   top: 6px;
   width: 12px;
   height: 8px;
@@ -1142,7 +1171,6 @@ button.catalog__filter-btnline{
 
   color: rgba(0, 0, 0, 0.6);
   box-sizing: border-box;
-  width: 65px;
   max-height: 127px;
   margin: 2px 0 0;
   padding: 0;
