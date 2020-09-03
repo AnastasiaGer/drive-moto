@@ -1063,3 +1063,117 @@ button.catalog__filter-btnline{
 .irs--flat .irs-handle.state_hover>i:first-child, .irs--flat .irs-handle:hover>i:first-child {
   background-color: #1C62CD;
 }
+
+.aside-filter__item-list{
+  margin: 46px 0 40px;
+}
+
+.filter__item-list{
+  padding-top: 34px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #C4C4C4;
+}
+
+.filter__item-listtitle{
+  font-family: 'SFProDisplay-Semibold', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2F3035;
+  padding-bottom: 14px;
+  padding-left: 26px;
+}
+
+.jq-selectbox__select {
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(0, 0, 0, 0.6);
+
+  height: 20px;
+  padding: 0 24px 0 10px;
+  
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+}
+
+.jq-selectbox__trigger-arrow {
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  width: 0;
+  height: 0;
+  border: none;
+}
+
+.jq-selectbox__trigger {
+  position: absolute;
+
+  background-image: url('../images/arrow-down.svg');
+  position: absolute;
+  left: 45px;
+  top: 6px;
+  width: 12px;
+  height: 8px;
+  transform: rotate(0deg);
+  border-left: none;
+}
+
+.jq-selectbox__select:hover {
+  background: transparent;
+  box-shadow: none;
+}
+
+.jq-selectbox__dropdown {
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  width: 65px;
+  max-height: 127px;
+  margin: 2px 0 0;
+  padding: 0;
+  border: 1px solid #CCC;
+  border-radius: 0;
+  background: #FFF;
+  box-shadow: none;
+
+}
+
+.jq-selectbox.focused .jq-selectbox__select{
+  border: none;
+}
+
+.jq-selectbox li.selected {
+  background-color: #fff;
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.jq-selectbox li:hover {
+  background: rgba(107, 126, 172, 0.05);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.jq-selectbox li{
+  color: rgba(0, 0, 0, 0.6);
+  padding: 3px 0 3px 18px;
+}
+
