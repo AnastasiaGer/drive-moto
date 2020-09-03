@@ -33,4 +33,14 @@ $(function(){
     $(this).next().slideToggle('200');
   });
 
+  $(".js-range-slider").ionRangeSlider({
+    type: "double",
+    grid: false,
+    min: 100000,
+    max: 500000,
+    from: 150000,
+    to: 300000,
+    hide_from_to: true,
+  });
+
 });
