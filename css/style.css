@@ -99,6 +99,12 @@ body{
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   transform: translateX(-100%);
   transition: all .3s;
+  position: absolute;
+  background-color: #fff;
+}
+
+.menu__mobile-linewrapper{
+  display: none;
 }
 
 .menu-mobile__list--active{
