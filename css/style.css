@@ -1440,6 +1440,10 @@ height: 8px;
   margin-bottom: 50px;
 }
 
+.product-card__buttons a + a{
+  margin-left: 30px;
+}
+
 .product-card__tab{
   line-height: 24px;
   font-size: 20px;

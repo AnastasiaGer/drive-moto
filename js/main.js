@@ -55,4 +55,8 @@ $(function(){
     $('.product-item__wrapper').addClass('product-item__wrapper--list')
   });
 
+  $(".rate-yo").rateYo({
+
+  });
+
 });
