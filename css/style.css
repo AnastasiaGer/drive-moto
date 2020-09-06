@@ -1682,3 +1682,7 @@ margin-left: auto;
   background-color: #1C62CD;
 
 }
+
+.product-card__btn-mobile{
+  display: none;
+}
